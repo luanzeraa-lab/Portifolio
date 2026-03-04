@@ -86,7 +86,13 @@ const NavBar1 = () => {
            
           </div>
         </div>
+        <div className="absolute bottom-0 left-0 w-full h-6 
+          bg-white
+          
+          pointer-events-none">
+        </div>
       </nav>
+     
 
           {/* <button className="fixed top-4 right-4 p-2 rounded bg-gray-200 dark:bg-gray-800 text-black dark:text-white z-50"
             onClick={() => {

@@ -52,7 +52,7 @@ const NavBar1 = () => {
 
 
             <Link
-              href="/Sobremim"
+              href="#sobre"
               className="no-underline p-0 h-fit 
                  text-gray-900
                  dark:text-white  
@@ -63,7 +63,7 @@ const NavBar1 = () => {
             </Link>
 
             <Link
-              href="/Habilidades"
+              href="#habilidades"
               className="no-underline p-0 h-fit 
                  text-gray-900
                  dark:text-white 
@@ -74,7 +74,7 @@ const NavBar1 = () => {
             </Link>
 
                <Link
-              href="/Contato"
+              href="#contato"
               className="no-underline p-0 h-fit 
                  text-gray-900
                  dark:text-white 

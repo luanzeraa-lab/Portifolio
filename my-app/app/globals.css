@@ -4,27 +4,57 @@ html {
   scroll-behavior: smooth;
 }
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* body {
+  @apply bg-white dark:bg-white;
+} */
+
+
+.page {
+   @apply w-[80%] mx-auto text-gray-300 font-sans;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.container {
+  @apply max-w-6xl mx-auto px-6 py-32;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Seções */
+.section {
+  @apply mt-10 text-center flex flex-col justify-center px-10 py-20
+  bg-white dark:bg-gray-800 rounded-2xl shadow;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.section-title {
+  @apply text-2xl;
+}
+
+/* Hero */
+.hero {
+  @apply flex flex-row justify-evenly gap-7;
+}
+
+/* Sobre */
+.sobre {
+  @apply flex flex-row gap-10 items-center;
+}
+
+/* Cards de projeto */
+.card {
+  @apply p-6 bg-white dark:bg-gray-800 rounded-xl shadow hover:scale-120 transition;
+}
+
+/* Grid tecnologias */
+.tech-grid {
+  @apply grid grid-cols-3 gap-20 mt-15 text-8xl justify-items-center;
+}
+
+/* Navbar */
+.navbar {
+  @apply sticky top-0 z-50 flex justify-around items-center
+  bg-gray-800
+  py-3 font-semibold text-lg shadow-md;
+}
+
+.nav-link {
+  @apply no-underline text-white
+  hover:text-[#d9376e] hover:underline underline-offset-1;
 }

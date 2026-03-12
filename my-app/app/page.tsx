@@ -21,6 +21,7 @@ export default function Home() {
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
       />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></link>
 
       <div className="page">
         <main className="container ">
@@ -55,7 +56,7 @@ export default function Home() {
           <section id="sobre" className="sobre section">
 
             <Image
-              className="w-100  border-0  border-gray-300 dark:border-gray-700"
+              className="w-120  border-0  border-gray-300 dark:border-gray-700"
               src="/coding.gif"
               alt="Minha Foto"
               width={1000}
@@ -220,6 +221,13 @@ export default function Home() {
               >
                 📧
               </a>
+              <a
+  href="https://wa.me/5515999999999"
+  target="_blank"
+  className="hover:scale-110 transition"
+>
+  <i className="fa-brands fa-whatsapp"></i>
+</a>
             </div>
           </section>
 

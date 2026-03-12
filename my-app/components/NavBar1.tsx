@@ -8,11 +8,13 @@ const NavBar1 = () => {
     <nav className="navbar">
 
       <Image
-        src="/logo.png"
+        className='w-13 hover:scale-150 transition'
+        src="/icons8-laptop-50.gif"
         alt="logo"
         width={120}
         height={40}
       />
+      
 
       <div className="flex gap-6">
 

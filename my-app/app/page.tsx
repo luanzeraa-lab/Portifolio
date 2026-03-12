@@ -202,27 +202,27 @@ export default function Home() {
             <h1 className="section-title">Contato</h1>
             <div className="flex justify-center gap-10 mt-8 text-6xl">
               <a
-                href="https://github.com/"
+                href="https://github.com/luanzeraa-lab"
                 target="_blank"
                 className="hover:scale-110 transition"
               >
                 <i className="devicon-github-original"></i>
               </a>
               <a
-                href="https://linkedin.com/"
+                href="https://www.linkedin.com/in/luan-silva-de-picoli-5b91a7336/"
                 target="_blank"
                 className="hover:scale-110 transition"
               >
                 <i className="devicon-linkedin-plain"></i>
               </a>
               <a
-                href="mailto:seuemail@gmail.com"
+                href="mailto:luansilva_2@hotmail.com"
                 className="hover:scale-110 transition"
               >
                 📧
               </a>
               <a
-  href="https://wa.me/5515999999999"
+  href="https://wa.me/5515988325100"
   target="_blank"
   className="hover:scale-110 transition"
 >

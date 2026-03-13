@@ -10,11 +10,11 @@ html {
 
 
 .page {
-   @apply w-[80%] mx-auto text-gray-300 font-sans;
+   @apply w-full mx-auto text-gray-300 font-sans;
 }
 
 .container {
-  @apply max-w-6xl mx-auto px-6 py-32;
+  @apply max-w-7xl mx-auto py-32;
 }
 
 /* Seções */
@@ -39,7 +39,7 @@ html {
 
 /* Cards de projeto */
 .card {
-  @apply p-6 bg-white dark:bg-gray-800 rounded-xl shadow hover:scale-120 transition;
+  @apply mx-6 p-6 bg-white dark:bg-gray-800 rounded-xl shadow hover:scale-120 transition;
 }
 
 /* Grid tecnologias */

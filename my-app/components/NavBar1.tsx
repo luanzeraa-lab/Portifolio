@@ -4,6 +4,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import '../app/globals.css';
 const NavBar1 = () => {
+
+  
+
   return (
     <nav className="navbar">
 

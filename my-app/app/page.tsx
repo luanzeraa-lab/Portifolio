@@ -53,7 +53,7 @@ export default function Home() {
           </section>
 
           {/* SOBRE */}
-          <section id="sobre" className="sobre section">
+          <section id="sobre" className="sobre section scroll-mt-24">
 
             <Image
               className="w-120  border-0  border-gray-300 dark:border-gray-700"
@@ -63,7 +63,8 @@ export default function Home() {
               height={1000}
             />
 
-            <p className="text-main font-bold text-2xl w-1/2 flex justify-center mx-12">
+            <p 
+            data-aos="fade-up" className="text-main font-bold text-2xl w-1/2 flex justify-center mx-12">
               Sou estudante de Desenvolvimento de Software Multiplataforma,
               atualmente em transição de carreira para a área de tecnologia.
               Durante a graduação venho desenvolvendo conhecimentos em lógica
@@ -79,10 +80,10 @@ export default function Home() {
           </section>
 
           {/* FORMAÇÃO */}
-          <section className="section font-bold">
+          <section  className="section scroll-mt-24 font-bold">
             <h1 className="section-title">Formação</h1>
 
-            <div className="mt-6 space-y-4 text-main">
+            <div data-aos="fade-up" className="mt-6 space-y-4 text-main">
 
               <div>
                 <p className="font-semibold">FATEC Votorantim</p>
@@ -110,9 +111,9 @@ export default function Home() {
           </section>
 
           {/* PROJETOS */}
-          <section className="section ">
+          <section className="section scroll-mt-24">
             <h2 className="section-title">Projetos</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+            <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
 
               <div className="card">
                 <h3 className="text-xl font-bold">Achamigos</h3>
@@ -141,7 +142,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="card">
+              {/* <div className="card">
 
                 <h3 className="text-xl font-bold">Achamigos</h3>
                 <p className="mt-2 text-gray-600 dark:text-gray-300">
@@ -166,7 +167,7 @@ export default function Home() {
                     Demo
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             
@@ -175,32 +176,40 @@ export default function Home() {
           </section>
 
           {/* TECNOLOGIAS */}
-          <section id="habilidades" className="section">
+          <section id="habilidades" className="section scroll-mt-24">
             <h1 className="section-title">Tecnologias</h1>
 
             <div className="tech-grid">
 
-              <i className="devicon-java-plain-wordmark colored hover:scale-150 transition"></i>
-              <i className="devicon-spring-plain-wordmark colored hover:scale-150 transition"></i>
-              <i className="devicon-javascript-plain colored hover:scale-150 transition"></i>
-              <i className="devicon-typescript-plain colored hover:scale-150 transition"></i>
-              <i className="devicon-react-original-wordmark colored hover:scale-150 transition"></i>
-              <i className="devicon-nextjs-original-wordmark hover:scale-150 transition"></i>
-              <i className="devicon-nodejs-plain-wordmark colored hover:scale-150 transition"></i>
-              <i className="devicon-git-plain-wordmark colored hover:scale-150 transition"></i>
-              <i className="devicon-mysql-plain-wordmark colored hover:scale-150 transition"></i>
-              <i className="devicon-mongodb-plain-wordmark colored hover:scale-150 transition"></i>
-              <i className="devicon-express-original-wordmark hover:scale-150 transition"></i>
-
-
-
+              <i data-aos="zoom-in" data-aos-delay="100"
+                className="devicon-java-plain-wordmark colored hover:scale-110 transition"></i>
+              <i data-aos="zoom-in" data-aos-delay="200"
+                className="devicon-spring-plain-wordmark colored hover:scale-110 transition"></i>
+              <i data-aos="zoom-in" data-aos-delay="300"
+                className="devicon-javascript-plain colored hover:scale-110 transition"></i>
+              <i data-aos="zoom-in" data-aos-delay="400"
+                className="devicon-typescript-plain colored hover:scale-110 transition"></i>
+              <i data-aos="zoom-in" data-aos-delay="500"
+                className="devicon-react-original-wordmark colored hover:scale-110 transition"></i>
+              <i data-aos="zoom-in" data-aos-delay="600"
+                className="devicon-nextjs-original-wordmark hover:scale-110 transition"></i>
+              <i data-aos="zoom-in" data-aos-delay="700"
+                className="devicon-nodejs-plain-wordmark colored hover:scale-110 transition"></i>
+              <i data-aos="zoom-in" data-aos-delay="800"
+                className="devicon-git-plain-wordmark colored hover:scale-110 transition"></i>
+              <i data-aos="zoom-in" data-aos-delay="900"
+                className="devicon-mysql-plain-wordmark colored hover:scale-110 transition"></i>
+              <i data-aos="zoom-in" data-aos-delay="1000"
+                className="devicon-mongodb-plain-wordmark colored hover:scale-110 transition"></i>
+              <i data-aos="zoom-in" data-aos-delay="1100"
+                className="devicon-express-original-wordmark hover:scale-110 transition"></i>
             </div>
           </section>
 
           {/* CONTATO */}
-          <section id="contato" className="section">
+          <section id="contato" className="section scroll-mt-24">
             <h1 className="section-title">Contato</h1>
-            <div className="flex justify-center gap-10 mt-8 text-6xl">
+            <div data-aos="zoom-in" className="flex justify-center gap-10 mt-8 text-6xl">
               <a
                 href="https://github.com/luanzeraa-lab"
                 target="_blank"

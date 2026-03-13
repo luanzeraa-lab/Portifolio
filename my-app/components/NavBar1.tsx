@@ -9,7 +9,7 @@ const NavBar1 = () => {
 
   return (
     <nav className="navbar">
-
+      <Link href="/" className="logo">
       <Image
         className='w-13 hover:scale-150 transition'
         src="/icons8-laptop-50.gif"
@@ -17,6 +17,7 @@ const NavBar1 = () => {
         width={120}
         height={40}
       />
+      </Link>
       
 
       <div className="flex gap-6">

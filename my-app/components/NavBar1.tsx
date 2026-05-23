@@ -20,7 +20,7 @@ const NavBar1 = () => {
       </Link>
       
 
-      <div className="flex gap-6">
+      <div className="flex gap-6 ">
 
         <Link href="/" className="nav-link">
           Home

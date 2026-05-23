@@ -34,7 +34,7 @@ export default function Home() {
                 Olá, eu sou <span className="text-[#d9376e]">Luan Picoli</span>
               </h1>
 
-              <p data-aos="zoom-in" className="text-gray-700 dark:text-gray-300 text-2xl mt-20">
+              <p data-aos="zoom-in" className="text-gray-700 dark:text-gray-400 text-2xl mt-20">
                 Desenvolvedor entusiasta em aprender sobre sistemas e aplicações
                 escaláveis utilizando Java, Spring e Node.js.
               </p>

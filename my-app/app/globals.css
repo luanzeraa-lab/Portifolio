@@ -10,7 +10,7 @@ html {
 
 
 .page {
-   @apply w-full mx-auto text-gray-300 font-sans;
+   @apply w-full mx-auto text-gray-500 font-sans;
 }
 
 .container {
@@ -20,7 +20,7 @@ html {
 /* Seções */
 .section {
   @apply mt-10 text-center flex flex-col justify-center px-10 py-20
-  bg-white dark:bg-gray-800 rounded-2xl shadow;
+   dark:bg-gray-900 rounded-2xl shadow;
 }
 
 .section-title {
@@ -50,11 +50,11 @@ html {
 /* Navbar */
 .navbar {
   @apply sticky top-0 z-50 flex justify-around items-center
-  bg-gray-800
+  bg-gray-800 dark:text-gray-400
   py-3 font-semibold text-lg shadow-md;
 }
 
 .nav-link {
-  @apply no-underline text-white
+  @apply no-underline text-gray-400
   hover:text-[#d9376e] hover:underline underline-offset-1;
 }

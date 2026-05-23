@@ -66,7 +66,9 @@ export default function Home() {
             <p 
             data-aos="fade-up" className="text-main font-bold text-2xl w-1/2 flex justify-center mx-12">
               Sou estudante de Desenvolvimento de Software Multiplataforma,
-              atualmente em transição de carreira para a área de tecnologia.
+              atualmente trabalho na prefeitura de Votorantim como Suporte Técnico.
+              Estou em processo de evolução na área de tecnologia, buscando sempre aprender
+              novas ferramentas, linguagens e boas práticas de desenvolvimento.
               Durante a graduação venho desenvolvendo conhecimentos em lógica
               de programação, desenvolvimento web e mobile, além de práticas
               relacionadas à análise e construção de sistemas.
@@ -76,6 +78,32 @@ export default function Home() {
               profissional. Busco evoluir constantemente e me preparar para
               os desafios do mercado de tecnologia.
             </p>
+
+          </section>
+
+          <section id="sobre" className="sobre section scroll-mt-24">
+
+
+            <p 
+              data-aos="fade-up" 
+              className="text-main font-bold text-2xl w-1/2 flex justify-center mx-12"
+              >
+              Além da área de programação, tenho grande interesse por música, tanto para ouvir quanto
+              para estudar seus detalhes e estruturas, o que me ajuda a desenvolver criatividade e
+              percepção analítica. Também gosto muito de esportes, especialmente futebol, que pratico
+              sempre que possível, além de acompanhar outros esportes em geral.
+
+              Nos momentos de lazer, gosto de assistir filmes e explorar o universo dos games, que também
+              contribuem para minha criatividade e raciocínio lógico. Sou uma pessoa curiosa, que gosta
+              de entender como as coisas funcionam e está sempre em busca de evolução pessoal e profissional.
+            </p>
+              <Image
+                className="w-120  border-0  border-gray-300 dark:border-gray-700"
+                src="/music.gif"
+                alt="Minha Foto"
+                width={1000}
+                height={1000}
+              />
 
           </section>
 
